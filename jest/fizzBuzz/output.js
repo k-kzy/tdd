@@ -4,7 +4,7 @@ let counter = 0;
 
 let output = (loopCount) => {
   for (let i = 1; i <= loopCount; i++) {
-    console.log(convert(i));
+    //console.log(convert(i));
     counter = i;
   }
   return counter;

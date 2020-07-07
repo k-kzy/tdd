@@ -1,5 +1,5 @@
-const convert = require('./convert');
-const output = require('./output');
+const convert = require('../convert');
+const output = require('../output');
 
 describe('FizzBuzz test', () => {
   test('1を渡したら文字列"1"を返す', () => {
